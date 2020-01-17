@@ -270,6 +270,7 @@
 		C391094622CF942000C0B1B4 /* WFChatClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C391094522CF942000C0B1B4 /* WFChatClient.framework */; };
 		C391094722CF942000C0B1B4 /* WFChatClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C391094522CF942000C0B1B4 /* WFChatClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C391094B22CF9C4300C0B1B4 /* WFCUAddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C391094A22CF9C4300C0B1B4 /* WFCUAddFriendCell.m */; };
+		C3933A8D23D196DF00B12E7D /* 说明doc.docx in Resources */ = {isa = PBXBuildFile; fileRef = C3933A8C23D196DF00B12E7D /* 说明doc.docx */; };
 		C397035F228C484300465003 /* CPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C397035E228C484300465003 /* CPBaseViewController.m */; };
 		C3970362228C486600465003 /* CPHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3970361228C486600465003 /* CPHomeVC.m */; };
 		C3991B7E228D602F00D73A13 /* CPHomeHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3991B7D228D602F00D73A13 /* CPHomeHeaderCell.m */; };
@@ -914,6 +915,7 @@
 		C391094522CF942000C0B1B4 /* WFChatClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WFChatClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C391094922CF9C4300C0B1B4 /* WFCUAddFriendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFCUAddFriendCell.h; sourceTree = "<group>"; };
 		C391094A22CF9C4300C0B1B4 /* WFCUAddFriendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFCUAddFriendCell.m; sourceTree = "<group>"; };
+		C3933A8C23D196DF00B12E7D /* 说明doc.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "说明doc.docx"; sourceTree = "<group>"; };
 		C397035D228C484300465003 /* CPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseViewController.h; sourceTree = "<group>"; };
 		C397035E228C484300465003 /* CPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseViewController.m; sourceTree = "<group>"; };
 		C3970360228C486600465003 /* CPHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHomeVC.h; sourceTree = "<group>"; };
@@ -1998,6 +2000,7 @@
 		C375376A228C316500F4EBD1 = {
 			isa = PBXGroup;
 			children = (
+				C3933A8C23D196DF00B12E7D /* 说明doc.docx */,
 				C391094522CF942000C0B1B4 /* WFChatClient.framework */,
 				C3753775228C316500F4EBD1 /* Carpooling */,
 				C3753791228C316600F4EBD1 /* CarpoolingTests */,
@@ -2706,6 +2709,7 @@
 				2FCCE70822A76D6500CE5024 /* CPLocalizable.strings in Resources */,
 				C344077E22CE5DD4002EDDB7 /* WFCUShareMessageView.xib in Resources */,
 				C344077B22CE5DD4002EDDB7 /* WFChatUIKit.xcassets in Resources */,
+				C3933A8D23D196DF00B12E7D /* 说明doc.docx in Resources */,
 				C3753781228C316500F4EBD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
