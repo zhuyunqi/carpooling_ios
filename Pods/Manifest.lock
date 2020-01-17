@@ -1,0 +1,125 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - FBSDKCoreKit (5.13.1):
+    - FBSDKCoreKit/Basics (= 5.13.1)
+    - FBSDKCoreKit/Core (= 5.13.1)
+  - FBSDKCoreKit/Basics (5.13.1)
+  - FBSDKCoreKit/Core (5.13.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.13.1):
+    - FBSDKLoginKit/Login (= 5.13.1)
+  - FBSDKLoginKit/Login (5.13.1):
+    - FBSDKCoreKit (~> 5.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.7.0):
+    - GoogleMaps (= 2.7.0)
+    - GooglePlaces (= 2.7.0)
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - libPhoneNumber-iOS (0.9.13)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.2.0)
+  - MZTimerLabel (0.5.4)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
+  - SVProgressHUD (2.2.5)
+  - TOCropViewController (2.5.0)
+  - VHLNavigation (1.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaLumberjack
+  - FBSDKLoginKit
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - libPhoneNumber-iOS
+  - MJExtension
+  - MJRefresh
+  - MZTimerLabel
+  - Realm
+  - SAMKeychain
+  - SDCycleScrollView
+  - SVProgressHUD
+  - TOCropViewController
+  - VHLNavigation
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - libPhoneNumber-iOS
+    - MJExtension
+    - MJRefresh
+    - MZTimerLabel
+    - Realm
+    - SAMKeychain
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - TOCropViewController
+    - YYKit
+  trunk:
+    - CocoaLumberjack
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - VHLNavigation
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  FBSDKCoreKit: 8fb98209109fb684937f05d534305edb18c20207
+  FBSDKLoginKit: c7c6ffd9ca9ea45aee32361840af040ad8f6706a
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlacePicker: 59ea44db173c58486ad6123993e81feefcbce9c3
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TOCropViewController: d86078d3a57a70c116bf3db7c89c80046a0e5fdf
+  VHLNavigation: fc38eb0762bfcab0376f823fd6f60eb2bd4b3602
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: d00acdd8fa19178df39ec972b8c8598cdc8d35c3
+
+COCOAPODS: 1.8.4
